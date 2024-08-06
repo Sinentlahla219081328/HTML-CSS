@@ -29,6 +29,18 @@ HTML Quotes
 To distinguish the quote from the surrounding text, we can wrap the whole thing in a blockqoute element, and use cite element to attribute the qoute. These two element serve a semantic purpose.They inform other computers, "Hey, this is what this is." Additionally, they provide a convenient way to apply custom styling.
 Using inline quotes :  we can use the "q" element in HTML, which stands for quote. By using this element, the browser will automatically provide the appropriate quote marks for us.
 Add lang= "fr"  or lang = "bg".
- 
+
+Date element -  the datetime attribute allows us to specify the date or time in a format that computers can understand. We write it like this: less-than time datetime="2025-05-08"greather -than May 8, 2025 then cloce the time tag.
+Time Element  write it like this: less-than time datetime="DT2H30M"greather -than 2h 30m then cloce the time tag.
+
+HTML Code, pre and br.
+Using code element - if you want to showcase the code on a webpage , Put an opening code tag before the CSS snippet and a closing code tag afterward. 
+When you want to add a html element you write code then put &lt; displayed as a less than sign. Similarly, typing "&gt;" will show a greater than sign. In between you put the element like H4 or P for example.
+Using br tag to break at the end of each lines. The br element is a simple tag without an opening or closing tag. it just indicates where a line break should happen.
+Using pre element: Pre and code elements are often combined to display a code block with proper indentation. To let the browser know that this is a block of code, you wrapped the entire content in a code element and to preserve the formatting and spacing,you further wrapped in a pre element.
+
+HTML Superscripts, Subscripts and Small Text
+
+
 
 
