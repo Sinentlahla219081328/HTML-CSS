@@ -22,6 +22,5 @@ It does not carry any specific meaning;it simply allows us to make something bol
 HTML lists are unordered lists, ordered lists, and definition lists. 
 Using unordered list to define the entire list and specify its type,we wrap all the items in a ul element. Each item in the list is enclosed in an li element, which represents a list item.
 Using ordered list to define the entire list and specify its type,we wrap all the items in a ol element.Each item in the list is enclosed in an li element, which represents a list item.
-Using definition or description list elements it is used when we want to create a list that resembles a key-value pair in computer science
-To create a definition list, we use specific elements.The term or key is enclosed in a dt tag, which stands for definition term. The description or value is enclosed in a dd tag, which stands for definition description. You can have multiple descriptions for each term by using multiple  tags. 
+Using definition or description list elements it is used when we want to create a list that resembles a key-value pair in computer science.To create a definition list, we use specific elements.The term or key is enclosed in a dt tag, which stands for definition term. The description or value is enclosed in a dd tag, which stands for definition description. You can have multiple descriptions for each term by using multiple  tags. 
 The entire list is wrapped in a dl tag, representing the definition list. Interestingly, the  tags and  tags are placed side by side without any additional wrapper around them.
