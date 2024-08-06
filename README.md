@@ -50,3 +50,25 @@ ARIA Roles are like extra attributes that we can add to HTML elements to make th
 ARIA Roles come into play when we want to provide essential information to assistive technologies like screen readers, braille displays, and magnifiers to ensure a website is fully accessible. ARIA came about when the web began replacing native applications, and it is particularly valuable for ensuring that everyone can use the full functionality of a complex interface in an app. The sort of efforts require the use and understanding of ARIA attributes involving accessibility issues.
 
 Using non breaking space in HTML to create multiple spaces between words. if you want to keet the first name "Lebron" and the last name "James" together in a sentence. We can use the code "and non breaking space;" to insert a non-breaking space between the two names, ensuring they stay on the same line. 
+
+HTML Navigation and link: We use nav, ul,ol, a element in marking up navigation.When we want to create a link, we use the A element, which stands for anchor. To do this, we need to add an href attribute with a URL enclosed in quotes. This URL is where the link will take us. The term href stands for Hypertext Reference, a nerdy phrase from the past. Between the opening and closing A tags, we can place text or images, or both, to make them clickable.
+Each link is wrapped in an element with the correct URL, and then enclosed in an "li" element to create a list of links. To maintain the order, wrap the whole list in a "ul" element, which represents an unordered list. Finally, encompass the entire menu in a "nav" element to indicate that it is the site's navigation.
+breadcrumb trail. Similar to the main menu, wrap the breadcrumb links in a "nav" element, but this time use an ordered list ("ol") since the order of the links matters. However, do not assign the role "navigation" to this menu; instead, we add an "aria label" of "breadcrumb" to provide context when read aloud.
+
+Working with graphics and images: there are four attributes that need to be included for every image.
+First, we have the source attribute (SRC), which tells the browser which image file to load. 
+Then we have the alt attribute (ALT), which provides a text description of the image. 
+Lastly, we have the width and height attributes, which determine the size of the image. 
+
+Image Formats - There are four main file formats commonly used on the web these days, each with its own strengths and weaknesses when it comes to compressing images. 
+GIF-
+SVG- are perfect for logos, icons, and other types of illustrations. it is used to create a compact image that can display in large sizes without pixelation.
+JPG-  are a popular choice for compressing photographs
+PNG-
+
+Working with the figure and figcaption elements:
+First, show a picture of the dog and add a caption to it. Use the figcaption element to wrap the text and designate it as a caption. Then, put the image and the caption together in a figure element. 
+
+
+
+
