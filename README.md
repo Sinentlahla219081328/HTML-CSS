@@ -74,6 +74,7 @@ PNG-
 Working with the figure and figcaption elements:
 First, show a picture of the dog and add a caption to it. Use the figcaption element to wrap the text and designate it as a caption. Then, put the image and the caption together in a figure element. 
 
+# Working With Media
 
 
 
