@@ -15,7 +15,9 @@ We use h1 to h6 tags to define Headlines and Subheadings where h1 element is the
 
 HTML Bold and Italics:There are four HTML elements related to this, two for bold and two for italic.
 Using italic elements : em to add emphasis and i to apply visual italics .
-The are two elements to emphasize or make something bold in HTML. The first one is the "strong" element,which is used to show importance,seriousness, or urgency.This element adds meaning to the text. On the other hand, the "<b>" element is more generic and neutral. It does not carry any specific meaning; it simply allows us to make something bold visually and does not imply any alternative voice or mood.
+The are two elements to emphasize or make something bold in HTML.The first one is the "strong" element,which is used to show importance,seriousness, or urgency.
+This element adds meaning to the text. On the other hand, the "b" element is more generic and neutral.
+It does not carry any specific meaning;it simply allows us to make something bold visually and does not imply any alternative voice or mood.
 
 HTML lists are unordered lists, ordered lists, and definition lists. 
 Using unordered list To define the entire list and specify its type, we wrap all the items in a <ul> element. Each item in the list is enclosed in an <li> element, which represents a list item.
