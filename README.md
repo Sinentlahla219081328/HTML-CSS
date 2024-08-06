@@ -7,8 +7,11 @@ Javascript allow us to manipulte the behaviour of HTML and CSS dynamical.javascr
 The web or browser programming broken up into three parts to be resilient to changes in technology. JavaScript is the most powerful and fragile of the browser programming languages. The browser guesses what you meant, and does its best to fix the bug itself when HTML is broken because of a bug in the code.
 
 #HTML TEXT FORMATTING
-HTML uses tags, which are enclosed in less-than and greater-than symbols, to mark different elements. Tags come in two types: opening tags <P> and closing tags </P>.  WE can have paragraph that uses emphasized text for effect.It is a separate element that nested inside a paragraph with <em> and </em> tag
-We use <h1> to <h6> tags to define Headlines and Subheadings where h1 element is the largest and most prominent, while h6 is the smallest and least attention-grabbing.
+html uses tags, which are enclosed in less-than and greater-than symbols, to mark different elements. 
+Tags come in two types:opening tags and closing tags.
+we can have paragraph that uses emphasized text for effect.
+It is a separate element that nested inside a paragraph with em and em tag
+We use h1 to h6 tags to define Headlines and Subheadings where h1 element is the largest and most prominent, while h6 is the smallest and least attention-grabbing.
 
 HTML Bold and Italics:There are four HTML elements related to this, two for bold and two for italic
 Using italic elements : <em> to add emphasis and <i> to apply visual italics .
