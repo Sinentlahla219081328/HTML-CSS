@@ -23,7 +23,7 @@ HTML lists are unordered lists, ordered lists, and definition lists.
 Using unordered list to define the entire list and specify its type,we wrap all the items in a ul element. Each item in the list is enclosed in an li element, which represents a list item.
 Using ordered list to define the entire list and specify its type,we wrap all the items in a ol element.Each item in the list is enclosed in an li element, which represents a list item.
 Using definition or description list elements it is used when we want to create a list that resembles a key-value pair in computer science.To create a definition list, we use specific elements.The term or key is enclosed in a dt tag, which stands for definition term. The description or value is enclosed in a dd tag, which stands for definition description. You can have multiple descriptions for each term by using multiple  tags. 
-The entire list is wrapped in a dl tag, representing the definition list. Interestingly, the  tags and  tags are placed side by side without any additional wrapper around them.
+The entire list is wrapped in a dl tag, representing the definition list. Interestingly, the  tags and  tags are placed side by side without any additional wrapper around them. lang and dir are also global attributes.
 
 HTML Quotes
 To distinguish the quote from the surrounding text, we can wrap the whole thing in a blockqoute element, and use cite element to attribute the qoute. These two element serve a semantic purpose.They inform other computers, "Hey, this is what this is." Additionally, they provide a convenient way to apply custom styling.
@@ -39,8 +39,14 @@ When you want to add a html element you write code then put &lt; displayed as a 
 Using br tag to break at the end of each lines. The br element is a simple tag without an opening or closing tag. it just indicates where a line break should happen.
 Using pre element: Pre and code elements are often combined to display a code block with proper indentation. To let the browser know that this is a block of code, you wrapped the entire content in a code element and to preserve the formatting and spacing,you further wrapped in a pre element.
 
-HTML Superscripts, Subscripts and Small Text
+HTML Superscripts, Subscripts and Small Text. 
+Subscripts, superscripts, and small text can be used where you need to mark up certain bits of content as having a different meaning than the rest. Subscripts are characters that are set below the normal baseline for text.Superscripts are characters that are set above the normal baseline of text. you can use small to convey that something has very little prominence. 
 
+HTML Global attributes : class and id attribute.
+class attribute allows us to assign a reusable name to any element, which can then be styled using CSS for all elements sharing that class. 
+id come in handy when we need to address specific elements in JavaScript or targeted links. The uniqueness of an ID name ensures that there will always just be one element with that ID, making it useful for interacting with JavaScript or links. Regardless of the use case, class and ID attributes provide a way to name HTML elements and reference them in other parts of the code stack. lang and dir are also global attributes.
 
+ARIA Roles are like extra attributes that we can add to HTML elements to make them more meaningful and help browsers understand what they represent.
+ARIA Roles come into play when we want to provide essential information to assistive technologies like screen readers, braille displays, and magnifiers to ensure a website is fully accessible. ARIA came about when the web began replacing native applications, and it is particularly valuable for ensuring that everyone can use the full functionality of a complex interface in an app. The sort of efforts require the use and understanding of ARIA attributes involving accessibility issues.
 
-
+Using non breaking space in HTML to create multiple spaces between words. if you want to keet the first name "Lebron" and the last name "James" together in a sentence. We can use the code "&nbsp;" to insert a non-breaking space between the two names, ensuring they stay on the same line. 
