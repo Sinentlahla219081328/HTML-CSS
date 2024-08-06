@@ -1,6 +1,6 @@
 # HTML-CSS
 #INTRODUCTION TO HTML
-HTML  It is the language that allows you to make sure your content is understandable to both people and computers.
+It is the language that allows you to make sure your content is understandable to both people and computers.
 The are three web programming languages : HTML, CSS and Javascript. HTML-HyperText Markup Language: It is used for structure and content of the web page,
 CSS- Cascading Style Sheet is used for stylling and layout of a web page. It is responsible for how everything looks — the colors, fonts, and sizes. It is also capable of adding cool animations and interactions to spice things up.
 Javascript allow us to manipulte the behaviour of HTML and CSS dynamical.javascript used for Client-Side, Event handling , Animations and Effect sand, Form handling.
