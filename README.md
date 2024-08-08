@@ -66,15 +66,24 @@ Then we have the alt attribute (ALT), which provides a text description of the i
 Lastly, we have the width and height attributes, which determine the size of the image. 
 
 Image Formats - There are four main file formats commonly used on the web these days, each with its own strengths and weaknesses when it comes to compressing images. 
-GIF-
+GIF-Simple animations, images with a limited color palette, and icons.
 SVG- are perfect for logos, icons, and other types of illustrations. it is used to create a compact image that can display in large sizes without pixelation.
 JPG-  are a popular choice for compressing photographs
-PNG-
+PNG-Images with transparency, icons, logos, and graphics with sharp edges.
 
 Working with the figure and figcaption elements:
 First, show a picture of the dog and add a caption to it. Use the figcaption element to wrap the text and designate it as a caption. Then, put the image and the caption together in a figure element. 
 
 # Working With Media
+The audio element is different from the image element because it has both an opening and a closing tag. It uses a source element and src attribute to provide the URL of the audio file.
+We also use controls to inform the browser that we want to add play button, timeline, and volume control.
+we can also add attributes like loop to make the file repeat from the beginning once it reaches the end and "Autoplay" attribute can automatically play the audio as soon as the page loads.
+Add type attributes to define the file type.
+
+Working With Video: Just like the audio element, the video element has an opening and closing tag. To display a video, use the source element and src attribute to specify the video file and te type.
+Add control attribute, Autoplay,mute and loop attributes. you can also make a video to be a hyperlink by adding "a" tag set hreg with URL.you can open a link to a new tab by adding target attribute and assign "_blank".
+Working with video captions and subtitles :To display these captions or subtitles on the video, insert a track element within the video element,use the source attribute to specify the file, the kind attribute to indicate that it contains captions, and a label attribute to display the caption option as "English" in the player. Additionally, use the source lang attribute to indicate the language and add a default attribute to make this track the default choice when captions are enabled.
+Embedding Media via Iframes:Embedding refers to taking content from one site and placing it within the middle of another site's page. Inside a Body tag add IFrame element with width and hight, then go to you tube video press share button and embeded video to get a code and paste it inside body tag.
 
 
 
