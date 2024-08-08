@@ -89,9 +89,13 @@ Embedding Media via Iframes:Embedding refers to taking content from one site and
 We can use lang attribute to specify the language of a webpage in the HTML element. Lang is assign to "en-US".
 It is also important to specify the content's direction using "dir" attribute to indicate the direction left to right. you can apply dir to all the elements but when your content use the same direction you can just put dir once on the outer HTML element. dir value is ltr(left to right) or rtl(right to left).
 
-The Meta Attribute : Add meta chartset tag within the head element and assign chartset to "UTF-8".it defines what kinf of characters we use in our webpage
-HTML Generic Elements, Div and Span.
+The Meta Attribute : Add meta chartset tag within the head element and assign chartset to "UTF-8".it defines what kind of characters we use in our webpage.  
+Discription meta tag explain what the website does. you just add a name and content attribute. Add a viewport ensure that if you want to have media code inside your css file to make website responsive.
+Link element inside head It serves to connect various assets that should load, such as CSS files, fonts, and favicons. To inform the browser about the type of asset, utilize the rel attribute. href attribute is used to specify the URL  and the rel.
+structure inside the body: main, header,footer,article,section and aside.
+the difference between a head element and a header element is that the head element contains document metadata, and a header element contains text to be displayed.
 
+HTML Generic Elements, Div and Span.   .
 span tag is a inline container that groups elements for styling purposes.
 div tag is a block container that groups elements for styling purposes. div tag takes the entire width.
 These element they don't do nothing untill the CSS is applied to them.
