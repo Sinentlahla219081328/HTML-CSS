@@ -85,5 +85,15 @@ Add control attribute, Autoplay,mute and loop attributes. you can also make a vi
 Working with video captions and subtitles :To display these captions or subtitles on the video, insert a track element within the video element,use the source attribute to specify the file, the kind attribute to indicate that it contains captions, and a label attribute to display the caption option as "English" in the player. Additionally, use the source lang attribute to indicate the language and add a default attribute to make this track the default choice when captions are enabled.
 Embedding Media via Iframes:Embedding refers to taking content from one site and placing it within the middle of another site's page. Inside a Body tag add IFrame element with width and hight, then go to you tube video press share button and embeded video to get a code and paste it inside body tag.
 
+# HTML Content Identification
+We can use lang attribute to specify the language of a webpage in the HTML element. Lang is assign to "en-US".
+It is also important to specify the content's direction using "dir" attribute to indicate the direction left to right. you can apply dir to all the elements but when your content use the same direction you can just put dir once on the outer HTML element. dir value is ltr(left to right) or rtl(right to left).
 
+The Meta Attribute : Add meta chartset tag within the head element and assign chartset to "UTF-8".it defines what kinf of characters we use in our webpage
+HTML Generic Elements, Div and Span.
+
+span tag is a inline container that groups elements for styling purposes.
+div tag is a block container that groups elements for styling purposes. div tag takes the entire width.
+These element they don't do nothing untill the CSS is applied to them.
+# HTML Working with forms
 
