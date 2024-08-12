@@ -100,4 +100,6 @@ span tag is a inline container that groups elements for styling purposes.
 div tag is a block container that groups elements for styling purposes. div tag takes the entire width.
 These element they don't do nothing untill the CSS is applied to them.
 # HTML Working with forms
+# CSS
+tylebg color, text color,text align,font size , font weight,font family"font name",set text to be uppercase using text transform, use span element add a class to style one line of a paragraph.
 
